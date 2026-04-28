@@ -1,0 +1,94 @@
+img {
+width: 30%;
+height: 30%;
+box-shadow: 4px 4px 4px;
+max-width: 100%;
+}
+
+body {
+  background-color: rgb(212, 206, 206);
+  font-size: 120%;
+  padding: 1%;
+}
+
+h1, h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 0.25rem;
+}
+
+header {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+ }
+
+header h2 {
+font-size: 120%;
+}
+
+header h1 {
+font-size: 175%;
+}
+
+figcaption {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 2px;
+  font-size: 0.6rem;
+  margin: 0.25rem;
+}
+
+p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .tommiheadshot {
+  text-align: center;
+  float: right;
+  max-width: 100%;
+ }
+ 
+ .tommiheadshot img {
+border: 1rem;
+border-radius: 10%;
+ }
+
+ iframe {
+  max-width: 500px;
+  max-height: 400px;
+ }
+
+ .wrapper {
+  background-color: white;
+ }
+
+ main {
+  max-width: 70rem;
+  margin: 0 auto;
+  line-height: 1.4;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+ }
+
+ footer {
+  background-color: gray;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+ footer a {
+  font-size: 1.25rem;
+  color: black;
+ }
+
+ footer a:hover {
+  color: blue;
+  background-color: darkgrey;
+  padding: 0.2rem;
+ }
+
