@@ -48,6 +48,32 @@ p {
   float: right;
   max-width: 100%;
  }
+
+.two-column {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.carousel-column {
+  flex: 2;
+  width: 65%;
+}
+
+.content-column {
+  flex: 1;
+  width: 35%;
+}
+
+@media screen and (max-width: 768px) {
+  .two-column {
+    flex-direction: column;
+  }
+
+  .carousel-column,.content-column {
+    width: 100%;
+    flex: none; }
+}
  
  .tommiheadshot img {
 border: 1rem;
