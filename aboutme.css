@@ -23,10 +23,18 @@ header {
   align-items: center;
   gap: 2rem;
   padding: 0.5rem;
+  height: auto;
+  min-height: 80px;
  }
 
-header h2 {
-font-size: 120%;
+header h1 {
+  font-size: 175%;
+}
+
+.tommiheadshot img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 
 header h1 {
@@ -46,7 +54,10 @@ p {
  .tommiheadshot {
   text-align: center;
   float: right;
-  max-width: 100%;
+  height: 30%;
+  width: 30%;
+  min-height: 30%;
+  min-width: 30%;
  }
  
  .tommiheadshot img {

@@ -52,12 +52,11 @@ p {
  .tommiheadshot img {
 border: 1rem;
 border-radius: 10%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
  }
 
- iframe {
-  max-width: 500px;
-  max-height: 400px;
- }
 
  .wrapper {
   background-color: white;
@@ -98,10 +97,12 @@ border-radius: 10%;
     padding: 0;
     overflow: hidden;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
   }
-  .navbar li {
-    float: left;
-  }
+
   .navbar li a {
     display: flex;
     text-align: center;
@@ -109,6 +110,47 @@ border-radius: 10%;
     padding: 14px 16px;
     text-decoration: none;
   }
+
   .navbar li a:hover {
     background-color: #555;
   }
+
+  .carousel-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-item1, .carousel-item2, .carousel-item3 {
+  flex: 0 0 100%;
+  width: 100%;
+  height: 800px;
+  background-color: black;
+  scroll-snap-align: center;
+  animation: slide-animation 10s infinite;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
