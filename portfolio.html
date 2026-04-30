@@ -3,47 +3,190 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="portfolio.css">
+  <title>Portfolio - Tommi Hensler</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="card.css">
+  <link rel="stylesheet" href="portfolio.css">
 </head>
-<header>
-  <div class="wrapper">
-  <header>  
+<body>
+
+<header class="full-width-header">  
+  <div class="header-content">
     <div class="name">
       <h1>Tommi Hensler</h1>
     </div>
-        <figure class="tommiheadshot">
-          <img src="images/tommi hensler.jpg" alt="Tommi Hensler's Headshot">
-        </figure>
+    <figure class="tommiheadshot">
+      <img src="images/tommi hensler.jpg" alt="Tommi Hensler's Headshot">
+    </figure>
+  </div>
 </header>
-<nav class="navbar">
+
+<nav class="navbar full-width-nav">
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="aboutme.html">About</a></li>
     <li><a href="portfolio.html">Portfolio</a></li>
     <li><a href="contacts.html">Contact</a></li>
   </ul>
-  </nav>
+</nav>
 
-  <body>
-<div class="dark-portfolio">
+<div class="wrapper">
+  <main>
+    <section class="portfolio-section">
+      <h2 class="section-title">Current Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/tommi hensler.jpg" alt="Current Project">
+          </div>
+          <div class="project-info">
+            <span class="status-badge status-current">Continuous</span>
+            <h3>Digital Brand Strategy 2026</h3>
+            <p>Developing a comprehensive digital identity for businesses, focusing on cross-platform storytelling and video content.</p>
+            
+            <a href="reels.html" class="reels-button">
+              <i class="fa-brands fa-instagram"></i> Check out Reels
+            </a>
+
+            <div class="tags">
+              <span class="project-tag">Branding</span>
+              <span class="project-tag">Video</span>
+              <span class="project-tag">Marketing</span>
+            </div>
+          </div>
+        </article>
+
+<article class="project-card">
+          <div class="project-image">
+            <img src="images/Media Comm Web Design.jpg" alt="Current Project">
+          </div>
+          <div class="project-info">
+            <span class="status-badge status-current">In Progress</span>
+            <h3> Web Design Basics</h3>
+            <p>I am currently learning and studying the basics of Web Design. HTML and CSS</p>
+            
+
+            <div class="tags">
+              <span class="project-tag">Web Design</span>
+              <span class="project-tag">Marketing</span>
+            </div>
+          </div>
+        </article>
+
+ <article class="project-card">
+          <div class="project-image">
+            <img src="images/promo-3heroes-banner copy.jpg" alt="Current Project">
+          </div>
+          <div class="project-info">
+            <span class="status-badge status-current">In Progress</span>
+            <h3>Quest Hammer Website</h3>
+            <p>I am Developing a website that is designed to help with productivity. </p>
+            
+            <a href="https://questhammer.com" class="reels-button">
+              <i class=></i> Quest Hammer!
+            </a>
+
+            <div class="tags">
+              <span class="project-tag">Branding</span>
+              <span class="project-tag">Web Design</span>
+              <span class="project-tag">Entrepreneurship</span>
+            </div>
+          </div>
+        </article>
+
+
+      </div>
+
+
+
+
+      
+    </section>
+
+    <section class="portfolio-section">
+      <h2 class="section-title">Future Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/Dark Profile fading.jpg" alt="Future Project">
+          </div>
+          <div class="project-info">
+            <span class="status-badge status-future">Upcoming</span>
+            <h3>Debut EP</h3>
+            <p>My first EP release! Timeline TBD</p>
+            <a href="https://linktr.ee/tommihensler" class="reels-button">
+              <i class=""></i> Check out my Music!
+            </a>
+          
+            <div class="tags">
+              <span class="project-tag">Sound Design</span>
+            </div>
+          </div>
+        </article>
+
+<article class="project-card">
+          <div class="project-image">
+            <img src="images/Media Comm Web Design.jpg" alt="Future Project">
+          </div>
+          <div class="project-info">
+            <span class="status-badge status-future">Upcoming</span>
+            <h3>UK Study Abroad Vlog</h3>
+            <p>I will be studying abroad with UCBA, and will be vlogging my experience!</p>
+            <div class="tags">
+              <span class="project-tag">Video</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
 
   
 
+    <section class="portfolio-section">
+      <h2 class="section-title">Past Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="images/yaacovblum.jpg" alt="Yaacov Blum Logo">
+          </div>
+          <div class="project-info">
+            <span class="status-badge status-past">Completed</span>
+            <h3>Yaacov Blum Identity</h3>
+            <p>Visual identity and logo creation for Yaacov Blum, Los Angeles 2025.</p>
+            <div class="tags">
+              <span class="project-tag">Graphic Design</span>
+              <span class="project-tag">Branding</span>
+            </div>
+          </div>
+        </article>
+
+<article class="project-card">
+          <div class="project-image">
+            <img src="images/IMG_0443 copy.jpg">
+          </div>
+          <div class="project-info">
+            <span class="status-badge status-past">Completed</span>
+            <h3>Thread Magazine Photoshoots</h3>
+            <p>Completed several Photoshoot for Thread Magazine while at Ohio Univeristy.</p>
+            <div class="tags">
+              <span class="project-tag">Photography</span>
+            </div>
+          </div>
+        </article>
+
+
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer class="full-width-footer">
+    <a href="https://www.instagram.com/tommihensler/"><i class="fa-brands fa-instagram"> Instagram</i></a>
+    <a href="https://www.linkedin.com/in/tommi-h-a31884221/?trk=public_profile_browsemap"><i class="fa-brands fa-linkedin-in"> LinkedIn</i></a>
+  </footer>
 </div>
-    <div>
-      <p class="reel">
-        <a class="reel-btn" href="reels.html"> Check out Instagram Reels here!</a>
-      </p>
-    </div>
-  </body>
-
-
-<footer>
- <a href="https://www.instagram.com/tommihensler/"><i class="fa-brands fa-instagram"> Instagram</i></a>
- <a href="https://www.linkedin.com/in/tommi-h-a31884221/?trk=public_profile_browsemap"><i class="fa-brands fa-linkedin-in"> LinkedIn</i></a>
-</footer>
+</body>
 </html>
