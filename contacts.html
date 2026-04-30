@@ -3,24 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>contacts</title>
-  <link rel="stylesheet" href="reset.css">
+  <title>Contact - Tommi Hensler</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="contacts.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-<header>
-<div class="wrapper">
-  <header>  
+<body class="contact-page">
+
+<header class="full-width-header">  
+  <div class="header-content">
     <div class="name">
       <h1>Tommi Hensler</h1>
     </div>
-        <figure class="tommiheadshot">
-          <img src="images/tommi hensler.jpg" alt="Tommi Hensler's Headshot">
-        
-        </figure>
+    <figure class="tommiheadshot">
+      <img src="images/tommi hensler.jpg" alt="Tommi Hensler's Headshot">
+    </figure>
+  </div>
 </header>
-<nav class="navbar">
+
+<nav class="navbar full-width-nav">
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="aboutme.html">About</a></li>
@@ -29,29 +31,51 @@
   </ul>
 </nav>
 
-<body>
-      <div class="contact-container">
-        <header>
-            <h1>Get in Touch</h1>
-            <p>I'd love to hear from you!</p>
-        </header>
-        
-        <div class="contact-content">
-            <section class="contact-info">
-                <div class="info-item">
-                    <h3>Email</h3>
-                    <p><a href="mailto:tommyhensler@gmail.com">tommyhensler@gmail.com</a></p>
-                </div>
-                <div class="info-item">
-                    <h3>Phone</h3>
-                    <p><a href="tel:+15138142616">+1 (513) 814-2616</a></p>
-                </div>
-            </section>
+<div class="wrapper">
+  <main class="contact-main">
+    <section class="contact-section">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="contact-intro">I'd love to hear from you! Whether you have a project in mind or just want to connect, feel free to reach out.</p>
+      
+      <div class="contact-card">
+        <div class="contact-method">
+          <div class="contact-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="contact-text">
+            <h3>Email</h3>
+            <p><a href="mailto:tommyhensler@gmail.com">tommyhensler@gmail.com</a></p>
+          </div>
         </div>
-    </div>
+
+        <div class="contact-method">
+          <div class="contact-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="contact-text">
+            <h3>Phone</h3>
+            <p><a href="tel:+15138142616">+1 (513 ) 814-2616</a></p>
+          </div>
+        </div>
+
+        <div class="contact-method">
+          <div class="contact-icon">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="contact-text">
+            <h3>Instagram</h3>
+            <p><a href="https://www.instagram.com/tommihensler/" target="_blank">@tommihensler</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="full-width-footer">
+    <a href="https://www.instagram.com/tommihensler/"><i class="fa-brands fa-instagram"> Instagram</i></a>
+    <a href="https://www.linkedin.com/in/tommi-h-a31884221/?trk=public_profile_browsemap"><i class="fa-brands fa-linkedin-in"> LinkedIn</i></a>
+  </footer>
+</div>
+
 </body>
-<footer>
- <a href="https://www.instagram.com/tommihensler/"><i class="fa-brands fa-instagram"> Instagram</i></a>
- <a href="https://www.linkedin.com/in/tommi-h-a31884221/?trk=public_profile_browsemap"><i class="fa-brands fa-linkedin-in"> LinkedIn</i></a>
-</footer>
 </html>
