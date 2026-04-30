@@ -3,26 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    Tommi Hensler's Homepage
-  </title>
-  <link rel="stylesheet" href="reset.css">
+  <title>About Me - Tommi Hensler</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="aboutme.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-<div class="wrapper">
-  <header>  
+
+<header class="full-width-header">  
+  <div class="header-content">
     <div class="name">
       <h1>Tommi Hensler</h1>
     </div>
-        <figure class="tommiheadshot">
-          <img src="images/tommi hensler.jpg" alt="Tommi Hensler's Headshot">
-        
-        </figure>
-  </header>
-<nav class="navbar">
+    <figure class="tommiheadshot">
+      <img src="images/tommi hensler.jpg" alt="Tommi Hensler's Headshot">
+    </figure>
+  </div>
+</header>
+
+<nav class="navbar full-width-nav">
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="aboutme.html">About</a></li>
@@ -31,50 +30,60 @@
   </ul>
 </nav>
 
-<h2>
-  About Me
-</h2>
-<main>
-<p>
-  I am an emerging Media Professional. I am currently studying 
-  <a href="https://www.ucblueash.edu/academics/majors/technology/applied-media.html">Applied Media Communications</a> at the <strong>
-  Univeristy of Cincinnati</strong>.
-</p>
+<div class="wrapper">
+  <main class="about-container">
+    <section class="intro-section">
+      <h2 class="section-title">About Me</h2>
+      <p class="lead-text">
+        I am an emerging <strong>Media Professional</strong> currently studying 
+        <a href="https://www.ucblueash.edu/academics/majors/technology/applied-media.html" class="highlight-link">Applied Media Communications</a> 
+        at the <strong>University of Cincinnati</strong>.
+      </p>
+    </section>
 
-<p>
-  I grew up in Cincinati Ohio. 
-</p>
+    <section class="timeline-section">
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Early Years</h3>
+            <p>Grew up in Cincinnati, Ohio and attended Taylor High School in Cleves.</p>
+          </div>
+        </div>
 
-<p>
-  I attended Taylor High School in Cleves, Ohio.
-</p>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>The Beauty Industry</h3>
+            <p>Lived in Columbus, Ohio for several years working with prestigious brands like <strong>Sephora (LVMH )</strong> and <strong>Jo Malone London (Estée Lauder)</strong>. It was here that I rediscovered my passion for content creation and marketing.</p>
+          </div>
+        </div>
 
-<p>
-  I lived in Columbus, Ohio for several years where I worked primarily in the Beauty Industry. I worked for brands such as Sephora (LVMH) as well as Jo Malone London, an Estee Lauder brand.
-</p>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Marketing & Community</h3>
+            <p>Returned to Cincinnati as a Leasing Consultant for <strong>PLK Communities</strong>. I took charge of social media marketing for <strong>Factory 52 Apartments</strong>, significantly growing their digital presence <span class="handle">@factory52apartments</span>.</p>
+          </div>
+        </div>
 
-<p>
-  While at Jo Malone London, I rediscoverd my love for Content Creation, and Marketing. 
-</p>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Today</h3>
+            <p>Back in the studio, strengthening my production skills and blending technical precision with creative storytelling.</p>
+          </div>
+        </div>
 
-<p>
-  When I moved back to Cincinnati to be closer to family, I continued this passion with my position as a Leasing Consultant in multi-family housing for PLK Communities.
-</p>
+      </div>
+    </section>
+  </main>
 
-<p>
-  While at PLK, I was also primarily responsible for our social media marketing at my site, Factory 52 Apartments. While I was there I was able to greatly grow the accounts social media presence. @factory52apartments
-</p>
-
-<p>
-  That leads to me today, back in school, strengthening my skills in production! 
-</p>
-
-</main>
-
-<footer>
- <a href="https://www.instagram.com/tommihensler/"><i class="fa-brands fa-instagram"> Instagram</i></a>
- <a href="https://www.linkedin.com/in/tommi-h-a31884221/?trk=public_profile_browsemap"><i class="fa-brands fa-linkedin-in"> LinkedIn</i></a>
-</footer>
+  <footer class="full-width-footer">
+    <a href="https://www.instagram.com/tommihensler/"><i class="fa-brands fa-instagram"> Instagram</i></a>
+    <a href="https://www.linkedin.com/in/tommi-h-a31884221/?trk=public_profile_browsemap"><i class="fa-brands fa-linkedin-in"> LinkedIn</i></a>
+  </footer>
 </div>
 
 </body>
