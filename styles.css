@@ -61,12 +61,6 @@ body.consistent-layout .full-width-nav a:hover {
 }
 
 
-
-body.consistent-layout {
-  margin: 0;
-  padding: 0;
-}
-
 .full-width-header {
   width: 100%;
   background-color: grey;
@@ -84,28 +78,7 @@ body.consistent-layout {
   padding: 0.5rem 1rem;
 }
 
-.full-width-nav {
-  width: 100%;
-  background-color: black;
-}
 
-.full-width-nav ul {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-  background-color: black;
-}
-
-.full-width-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 14px 16px;
-  display: block;
-}
 
 img {
 width: 30%;
