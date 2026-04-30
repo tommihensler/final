@@ -1,17 +1,18 @@
-body {
+body.about-page {
   margin: 0;
   padding: 0;
   background-color: rgb(212, 206, 206);
 }
 
-.full-width-header {
+body.about-page .full-width-header {
   width: 100%;
   background-color: grey;
   display: flex;
   justify-content: center;
+  float: none;
 }
 
-.header-content {
+body.about-page .header-content {
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -21,12 +22,13 @@ body {
   padding: 0.5rem 1rem;
 }
 
-.full-width-nav {
+body.about-page .full-width-nav {
   width: 100%;
   background-color: black;
+  display: block;
 }
 
-.full-width-nav ul {
+body.about-page .full-width-nav ul {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -34,22 +36,24 @@ body {
   display: flex;
   justify-content: center;
   gap: 4rem;
+  background-color: black;
 }
 
-.full-width-nav a {
+body.about-page .full-width-nav a {
   color: white;
   text-decoration: none;
   padding: 14px 16px;
   display: block;
 }
 
-.wrapper {
+body.about-page .wrapper {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1rem;
+  display: block;
 }
 
-.section-title {
+body.about-page .section-title {
   font-family: Impact, sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -59,62 +63,57 @@ body {
   margin-bottom: 2rem;
 }
 
-.lead-text {
+body.about-page .lead-text {
   font-family: 'Franklin Gothic Medium', Arial, sans-serif;
   font-size: 1.25rem;
   line-height: 1.6;
   color: #222;
 }
 
-.highlight-link {
-  color: navy;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.timeline-section {
+body.about-page .timeline-section {
   margin-top: 3rem;
   padding-left: 1rem;
 }
 
-.timeline {
+body.about-page .timeline {
   position: relative;
-  border-left: 3px solid black;
-  padding-left: 2rem;
+  border-left: 4px solid black;
+  padding-left: 2.5rem;
   margin-left: 1rem;
 }
 
-.timeline-item {
+body.about-page .timeline-item {
   position: relative;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
-.timeline-dot {
+body.about-page .timeline-dot {
   position: absolute;
-  left: -2.45rem;
-  top: 0.25rem;
-  width: 1rem;
-  height: 1rem;
+  left: -3.1rem;
+  top: 0.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
   background-color: black;
   border-radius: 50%;
+  z-index: 2;
 }
 
-.timeline-content h3 {
+body.about-page .timeline-content h3 {
   font-family: Impact, sans-serif;
   margin: 0 0 0.5rem 0;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #333;
 }
 
-.timeline-content p {
+body.about-page .timeline-content p {
   font-family: Georgia, serif;
   line-height: 1.6;
   margin: 0;
   color: #444;
 }
 
-.handle {
+body.about-page .handle {
   display: inline-block;
   background: #1c1c1c;
   color: white;
@@ -122,19 +121,12 @@ body {
   border-radius: 4px;
   font-family: 'Courier New', monospace;
   font-size: 0.85rem;
-  margin-top: 5px;
 }
 
-footer {
+body.about-page footer {
   margin-top: 4rem;
   padding: 2rem;
   background-color: gray;
   display: flex;
   justify-content: space-around;
-}
-
-footer a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.2rem;
 }
