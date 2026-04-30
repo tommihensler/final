@@ -1,6 +1,32 @@
+.wrapper {
+  width: 100%;
+}
+  
 .tommiheadshot img {
   width: 60px;
   height: 60px;
   object-fit: cover;
 }
 
+.reel-btn {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.reel {
+  margin: 2rem;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.reel-btn:hover {
+  background-color: grey;
+  color: black;
+}
+
+.f52-video {
+  width: 50%;
+}

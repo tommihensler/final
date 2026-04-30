@@ -4,6 +4,10 @@
   object-fit: cover;
 }
 
+.wrapper {
+  width: 100%;
+}
+
 .contact-content {
   max-width: 700px;
   margin: 50px auto;
