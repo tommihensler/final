@@ -1,3 +1,49 @@
+body.consistent-layout {
+  margin: 0;
+  padding: 0;
+}
+
+.full-width-header {
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+.full-width-nav {
+  width: 100%;
+  background-color: black;
+}
+
+.full-width-nav ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  background-color: black;
+}
+
+.full-width-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+}
+
+
 body.contact-page {
   margin: 0;
   padding: 0;
